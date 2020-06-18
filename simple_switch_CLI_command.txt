@@ -1,0 +1,7 @@
+sudo /home/p4/tutorials-b5c82700b8cd6603dfd967e164f79c0d31c67c8c/vm/behavioral-model/targets/simple_switch/simple_switch_CLI --thrift-port 9090
+
+mirroring_add 250 5
+register_write buffer 1 5
+
+
+sudo /home/p4/tutorials-b5c82700b8cd6603dfd967e164f79c0d31c67c8c/vm/behavioral-model/targets/simple_switch/simple_switch_CLI --thrift-port 9090 < antilog_command.txt
